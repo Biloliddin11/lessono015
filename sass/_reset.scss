@@ -1,0 +1,32 @@
+@font-face {
+    font-family: RedHatDisplay;
+    src: url("../fonts/RedHatDisplay-VariableFont_wght.woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: RedHatDisplay, sans-serif;
+}
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+button, input{
+    outline: none;
+}
+h2 {
+    text-align: center;
+}
